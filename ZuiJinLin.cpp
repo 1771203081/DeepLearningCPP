@@ -187,7 +187,7 @@ void KNN::get_max_freq_label()
     
     map<tLabel,int>::const_iterator map_it = map_label_freq.begin();
     
-    tLabel label;
+    tLabel label = '\0';
     
     int max_freq = 0 ;
     

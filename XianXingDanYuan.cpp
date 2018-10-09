@@ -242,7 +242,7 @@ void printTheta()
 void tiDuXiaJiang()
 {
     int da = 10;
-    cout<<"10的abs函数的值:"<<abs(da)<<endl;
+    cout<<"10的abs绝对值函数的值:"<<abs(da)<<endl;
     Init_TiDuXiaJiang();
     //batch_grandient();
     stochastic_gradient();
